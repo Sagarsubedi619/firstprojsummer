@@ -39,19 +39,19 @@ public class firstprojsummer {
     }*/
 
 
-    public static void main(String[] args) {
+//    public static void main(String[] args) {
 
-        /*String name = "Sagar";
-        *//*
+    /*String name = "Sagar";
+     *//*
         char init = name.charAt(0);
         System.out.println(init);*//*
 
         Scanner input=new Scanner(System.in);
-        System.out.println("Please eneter name");
+        System.out.println("Please enter name");
         name=input.nextLine();
         System.out.println(name);
 */
-
+/*
         System.out.println("Fortune teller");
 
         Scanner input=new Scanner(System.in);
@@ -63,6 +63,40 @@ public class firstprojsummer {
         else{
             System.out.println("Your shoe selection will make you happy today");
         }
+
+
+
+    }*/
+//}
+
+
+    public static void main(String[] args) {
+
+        String question="Who is the CEO of Microsoft? ";
+        String choice1="Bill Gates";
+        String choice2="john";
+        String choice3="henry";
+
+        String Correctans =choice1;
+
+
+        System.out.println(question);
+        System.out.println(choice1);
+        System.out.println(choice2);
+        System.out.println(choice3);
+
+        Scanner input=new Scanner(System.in);
+        System.out.println("Please enter your choice :");
+        String answer=input.nextLine();
+
+        if (answer.toLowerCase().equals(Correctans.toLowerCase())){
+            System.out.println("Correct");
+        }
+        else{
+            System.out.println("In-correct");
+        }
+
+
 
 
 
